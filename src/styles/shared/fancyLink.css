@@ -1,0 +1,35 @@
+@keyframes link-bold {
+  from {
+    font-weight: 300;
+  }
+  to {
+    font-weight: 700;
+  }
+}
+
+@keyframes link-normal {
+  from {
+    font-weight: 700;
+  }
+  to {
+    font-weight: 300;
+  }
+}
+
+.link {
+  color: #179287;
+  font-family: "Fira Code";
+  margin: 0vw;
+  padding-top: 0vw;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.linkCW {
+  animation-name: link-bold;
+}
+
+.linkCCW {
+  animation-name: link-normal;
+}

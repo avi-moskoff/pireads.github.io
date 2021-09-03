@@ -1,0 +1,29 @@
+@keyframes head {
+  from {
+    font-weight: 100;
+  }
+  to {
+    font-weight: 900;
+  }
+}
+
+.header {
+  text-align: center;
+}
+
+.headerLink {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.name {
+  font-family: "Tourney";
+  font-size: 100px;
+  animation-name: head;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  margin: 0vw;
+  padding-top: 0vw;
+}

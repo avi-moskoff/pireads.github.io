@@ -26,10 +26,10 @@
   animation-iteration-count: 1;
 }
 
-.linkCW {
+.linkBold {
   animation-name: link-bold;
 }
 
-.linkCCW {
+.linkNormal {
   animation-name: link-normal;
 }

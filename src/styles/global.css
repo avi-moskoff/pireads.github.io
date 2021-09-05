@@ -9,22 +9,23 @@ body {
   font-family: "Fira Code";
   font-weight: 300;
   color: #fff;
-  margin: 0vw;
-}
-
-.container {
+  font-size: 15px;
   width: 90%;
-  margin-left: 5%;
   margin-right: 5%;
+  margin-left: 5%;
+}
+html {
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 700px) {
   body {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
+
 @media screen and (min-width: 701px) {
   body {
-    font-size: 30px;
+    font-size: 20px;
   }
 }

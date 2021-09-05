@@ -19,8 +19,8 @@
 .link {
   color: #179287;
   font-family: "Fira Code";
-  margin: 0vw;
-  padding-top: 0vw;
+  /* margin: 0vw; */
+  /* padding-top: 0vw; */
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;

@@ -14,7 +14,7 @@ const Bullet = (props: {
     const regex = new RegExp(`(.*)${props.link.linkText}(.*)`);
     const brokenText = props.text.match(regex);
     textWithLink = (
-      <span>
+      <div>
         {brokenText[1]}
         <FancyLink
           isExternal={props.link.isExternal}
@@ -22,17 +22,17 @@ const Bullet = (props: {
           to={props.link.to}
         />
         {brokenText[2]}
-      </span>
+      </div>
     );
   }
   return (
-    <span className="resumeBulletLine">
+    <div className="resumeBulletLine">
       <FontAwesomeIcon
         className="resumeBullet resumeIcon fa-fw"
         icon={props.icon}
       />
       {props.link ? textWithLink : props.text}
-    </span>
+    </div>
   );
 };
 

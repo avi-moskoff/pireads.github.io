@@ -17,8 +17,8 @@
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  margin: 0vw;
-  padding-top: 0vw;
+  /* margin: 0vw; */
+  /* padding-top: 0vw; */
 }
 
 @media screen and (max-width: 700px) {

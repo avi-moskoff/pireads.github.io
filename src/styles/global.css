@@ -5,10 +5,10 @@
 @import url("./resume/resume.css");
 
 body {
-  background-color: #000;
+  background-color: #2e3440;
   font-family: "Fira Code";
   font-weight: 300;
-  color: #fff;
+  color: #eceff4;
   font-size: 15px;
   width: 90%;
   margin-right: 5%;

@@ -13,14 +13,6 @@ const Experience = () => {
           {
             text: "Built a personal website using React, Typescript, and D3.",
           },
-          {
-            text: "Made my first open source contribution as a result.",
-            link: {
-              isExternal: true,
-              linkText: "open source contribution",
-              to: "https://github.com/mui-org/material-ui/pull/22247",
-            },
-          },
         ]}
         icon={faAtom}
         isFirst
@@ -31,12 +23,10 @@ const Experience = () => {
         address="https://projecteuler.net/"
         bullets={[
           {
-            text:
-              "Solved challenging problems involving math and computer science.",
+            text: "Solved challenging problems involving math and computer science.",
           },
           {
-            text:
-              "Currently ranked in the top 1% of users for total problems solved.",
+            text: "Currently ranked in the top 1% of users for total problems solved.",
           },
         ]}
         icon={faPython}

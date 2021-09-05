@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Tourney:wght@100..900&display=swap");
 
+@import url("./404/404.css");
 @import url("./shared/fancyLink.css");
 @import url("./shared/header.css");
 @import url("./resume/resume.css");

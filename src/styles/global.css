@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Tourney:wght@100..900&display=swap");
+/* https://fontawesome.com/how-to-use/on-the-web/other-topics/server-side-rendering */
+@import url("https://use.fontawesome.com/releases/v5.13.1/css/svg-with-js.css");
 
 @import url("./404/404.css");
 @import url("./shared/fancyLink.css");

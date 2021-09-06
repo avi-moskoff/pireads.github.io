@@ -8,7 +8,6 @@ const Header = () => {
       <h1 className="name">AVI MOSKOFF</h1>
       <FancyLink to="/" className="headerLink" text="home" />
       <FancyLink to="/resume" className="headerLink" text="résumé" />
-      <FancyLink to="/" className="headerLink" text="transcript" />
     </div>
   );
 };

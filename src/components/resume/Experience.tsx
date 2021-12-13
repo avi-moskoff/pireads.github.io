@@ -21,8 +21,7 @@ const Experience = () => {
             text: "Made a dynamic carousel for avatar selection.",
           },
           {
-            text:
-              "Wrote a tutorial about a Git operation for the marketing team.",
+            text: "Wrote a tutorial about a Git operation for the marketing team.",
             link: {
               isExternal: true,
               linkText: "tutorial",
@@ -33,7 +32,7 @@ const Experience = () => {
         icon={faCodeBranch}
         isFirst
         location="Scottsdale, Arizona"
-        name="Axosoft"
+        name="GitKraken"
         position="Software Development Intern"
         time="2020-2021"
       />
@@ -41,8 +40,7 @@ const Experience = () => {
         address="https://ren-fengbo.lab.asu.edu/"
         bullets={[
           {
-            text:
-              "Ported compressive sensing algorithms to PyTorch for meta-analysis.",
+            text: "Ported compressive sensing algorithms to PyTorch for meta-analysis.",
           },
           {
             text: "Co-authored a paper.",
@@ -66,8 +64,7 @@ const Experience = () => {
             text: "Obtained a secret security clearance.",
           },
           {
-            text:
-              "Researched and developed a modern alternative to paper data collection.",
+            text: "Researched and developed a modern alternative to paper data collection.",
           },
         ]}
         icon={faBroadcastTower}

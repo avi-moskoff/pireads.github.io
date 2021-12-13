@@ -5,3 +5,8 @@ Actual site is served via Github Pages from the `docs` directory.
 # To develop:
 
 - `nvm use 14`
+- `gatsby develop`
+
+# To deploy (Run before committing):
+
+- `./deploy.sh`

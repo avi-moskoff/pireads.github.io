@@ -9,7 +9,7 @@ const Education = () => {
         <div>May 2022</div>
       </div>
       <span>Bachelor of Science in Computer Science and Mathematics</span>
-      <span>GPA: 4.0</span>
+      <span>GPA: 3.98</span>
     </div>
   );
 };

@@ -17,6 +17,6 @@ module.exports = {
         display: `standalone`,
         icon: "src/images/favicon.svg",
       },
-    }
+    },
   ],
 };

@@ -28,7 +28,7 @@
 
 .resumeColumns {
   display: grid;
-  grid-template-columns: 60% 35%;
+  grid-template-columns: 80% 20%;
   margin-top: 20px;
 }
 
@@ -44,6 +44,7 @@
   }
   .resumeColumns {
     column-gap: 15px;
+    grid-template-columns: 70% 30%;
     row-gap: 10px;
   }
   .resumeSkills {
@@ -67,9 +68,9 @@
     font-size: 30px;
   }
   .resumeColumns {
-    column-gap: 40px;
+    column-gap: 0px;
     row-gap: 20px;
-    grid-template-columns: 80% 10%;
+    grid-template-columns: 80% 20%;
   }
   .resumeSkills {
     grid-template-columns: 25% 25% 25% 25%;
@@ -80,9 +81,9 @@
     font-size: 30px;
   }
   .resumeColumns {
-    column-gap: 40px;
+    column-gap: 0px;
     row-gap: 20px;
-    grid-template-columns: 80% 10%;
+    grid-template-columns: 80% 20%;
   }
   .resumeSkills {
     grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;

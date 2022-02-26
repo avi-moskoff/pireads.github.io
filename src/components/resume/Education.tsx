@@ -4,12 +4,11 @@ const Education = () => {
   return (
     <div className="resumeColumns">
       <span>Arizona State University</span>
-      <div>
-        <div>Graduating:</div>
-        <div>May 2022</div>
-      </div>
-      <span>Bachelor of Science in Computer Science and Mathematics</span>
-      <span>GPA: 3.98</span>
+      <span>2018-2022</span>
+      <span>BS, Computer Science</span>
+      <span>Tempe, Arizona</span>
+      <span>BS, Mathematics</span>
+      <span>3.98 GPA</span>
     </div>
   );
 };

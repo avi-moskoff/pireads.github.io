@@ -74,7 +74,7 @@ const Experience = () => {
         time="2019"
       />
       <Job
-        address="https://lefthandrobotics.com/"
+        address="https://www.youtube.com/watch?v=bZKOfndO5Tg"
         bullets={[
           {
             text: "Implemented an OTA software deployment system.",

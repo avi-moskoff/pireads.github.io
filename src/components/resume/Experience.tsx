@@ -51,7 +51,6 @@ const Experience = () => {
           },
         ]}
         icon={faCodeBranch}
-        isFirst
         location="Scottsdale, Arizona"
         name="GitKraken"
         position="Software Development Intern"

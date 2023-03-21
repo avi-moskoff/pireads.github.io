@@ -1,12 +1,27 @@
 import React from "react";
 import { faPython } from "@fortawesome/free-brands-svg-icons";
-import { faAtom } from "@fortawesome/free-solid-svg-icons";
+import { faAtom, faRobot } from "@fortawesome/free-solid-svg-icons";
 
 import Job from "./Job";
 
 const Experience = () => {
   return (
     <div>
+      <Job
+        address="https://www.sisepuedefoundation.org/"
+        bullets={[
+          {
+            text: "Mentored two local middle school robotics teams.",
+          },
+          {
+            text: "Nominated by students for the Compass Award at the Arizona FIRST Tech Challenge State Championships.",
+          },
+        ]}
+        icon={faRobot}
+        isFirst
+        name="Binary Bots and Da Geese Of Freedom FTC Teams"
+        time="2022-Present"
+      />
       <Job
         address="https://github.com/pireads/pireads.github.io/"
         bullets={[

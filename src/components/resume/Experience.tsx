@@ -3,6 +3,7 @@ import {
   faBroadcastTower,
   faCamera,
   faCodeBranch,
+  faCodeCompare,
   faSatellite,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -11,6 +12,26 @@ import Job from "./Job";
 const Experience = () => {
   return (
     <div>
+      <Job
+        address="https://www.gitkraken.com/"
+        bullets={[
+          {
+            text: "Implemented a new design for the left panel of the application.",
+          },
+          {
+            text: "Owned code responsible for instrumenting the GitKraken Client with Open Telemetry.",
+          },
+          {
+            text: "Visualized telemetry information in order to assist in making data driven design decisions.",
+          },
+        ]}
+        icon={faCodeCompare}
+        isFirst
+        location="Scottsdale, Arizona"
+        name="GitKraken"
+        position="Software Development Engineer"
+        time="2022-Present"
+      />
       <Job
         address="https://www.gitkraken.com/"
         bullets={[
